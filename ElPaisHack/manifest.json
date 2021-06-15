@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "El Pais Article Hack",
+  "description": "Get as many desired articles on El Pais newspaper.",
+  "version": "1",
+  "author": "LuisAFK",
+  "icons": {
+    "48": "favicon48.png",
+    "128": "favicon128.png",
+    "200": "favicon200.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "http://*/",
+    "https://*/"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "favicon48.png",
+    "default_title": "El Pais Article Hack"
+  }
+}
